@@ -35,7 +35,7 @@ print len(response1.read())     #返回网页内容的长度
 ######################################
 print'the second way'
 request = urllib2.Request(url)
-request.add_header('user-agent', 'Mozilla/5.0')   	#把爬虫伪装成浏览器
+request.add_header('user-agent', 'Mozilla/5.0')       #把爬虫伪装成浏览器
 resopnse2 = urllib2.urlopen(request)
 print(resopnse2.getcode())
 print(len(resopnse2.read()))
@@ -49,9 +49,8 @@ response3 = urllib2.urlopen(url)
 print response3.getcode()
 print cj     #打印cook的内容
 print len(response3.read())
+
 ```
-
-
 
 
 
