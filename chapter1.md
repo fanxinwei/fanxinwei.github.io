@@ -1,3 +1,6 @@
-# First Chapter
+# 模块解析
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+一、URL管理器：管理已抓取的网页和未抓取的网页
+
+作用：
+
